@@ -9,4 +9,4 @@ Route::get('/user', function (Request $request) {
 })->middleware('auth:sanctum');
 
 
-Route::post('/cards/deduct', [CardController::class, 'deduct'])->name('cards.deduct');
+Route::post('/cards-deduct', [CardController::class, 'deduct'])->name('cards.deduct');
